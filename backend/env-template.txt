@@ -1,0 +1,27 @@
+# MongoDB Connection
+# Uncomment and modify one of these options:
+
+# Option 1: Local MongoDB (no authentication)
+# MONGO_URI=mongodb://127.0.0.1:27017/certdb
+
+# Option 2: Docker MongoDB (with authentication)
+# MONGO_URI=mongodb://admin:password123@127.0.0.1:27017/certdb?authSource=admin
+
+# Option 3: MongoDB Atlas (cloud)
+# MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/certdb?retryWrites=true&w=majority
+
+# JWT Secret
+JWT_SECRET=your-super-secret-jwt-key-here
+
+# Server Port
+PORT=5000
+
+# SMTP Configuration (for email features)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-app-password
+SMTP_FROM=your-email@gmail.com
+
+# Public Base URL (for certificate verification links)
+PUBLIC_BASE_URL=http://localhost:5173

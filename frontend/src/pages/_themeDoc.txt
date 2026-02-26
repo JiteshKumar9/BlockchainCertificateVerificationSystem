@@ -1,0 +1,2 @@
+Use Tailwind classes: primary(#4F46E5), secondary(#22D3EE), gradient: bg-gradient-to-r from-indigo-600 via-blue-500 to-cyan-400. Font: 'Inter'. All buttons/cards use .btn/.btn-primary/.card classes.
+
